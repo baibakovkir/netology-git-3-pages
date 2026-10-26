@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Кирилла Байбакова, fullstack developer из Москвы.">
+  <title>Кирилл Байбаков — Fullstack developer</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color: #17211e; background: #f3f6f4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 2rem 1rem; }
+    main { width: min(100%, 720px); padding: clamp(1.5rem, 6vw, 3.5rem); background: #fff; border: 1px solid #dfe8e2; border-radius: 24px; box-shadow: 0 24px 70px #18382b12; }
+    header { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; }
+    img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.25rem); letter-spacing: -.04em; }
+    .role { margin: .45rem 0 0; color: #4e6e60; }
+    h2 { margin: 2rem 0 .8rem; font-size: 1.1rem; }
+    p, li { line-height: 1.7; }
+    ul { padding-left: 1.2rem; }
+    a { color: #176c4c; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #37a579; outline-offset: 3px; border-radius: 3px; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e8eee9; color: #64756c; font-size: .9rem; }
+    @media (max-width: 480px) { header { align-items: flex-start; flex-direction: column; } img { width: 88px; height: 88px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="assets/profile.jpg" alt="Фото профиля Кирилла Байбакова" width="112" height="112">
+      <div>
+        <h1>Кирилл Байбаков</h1>
+        <p class="role">Fullstack developer · Москва</p>
+      </div>
+    </header>
+    <p>Привет! Я Кирилл. Здесь собраны мои учебные проекты и практика работы с Git и GitHub.</p>
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">Проекты</h2>
+      <ul>
+        <li><a href="https://github.com/baibakovkir/netology-git-1">NeuroStartUp</a> — лендинг и практика работы с ветками Git.</li>
+        <li><a href="https://github.com/baibakovkir/netology-git-2">Импорт лендинга</a> — Git, .gitignore и публикация проекта.</li>
+      </ul>
+    </section>
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Контакты</h2>
+      <p><a href="https://github.com/baibakovkir">GitHub: @baibakovkir</a></p>
+    </section>
+    <footer>© Кирилл Байбаков · GitHub Pages</footer>
+  </main>
+</body>
+</html>
